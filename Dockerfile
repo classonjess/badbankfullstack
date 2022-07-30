@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:14
+FROM node:alpine
 
 COPY package.json package.json
 
