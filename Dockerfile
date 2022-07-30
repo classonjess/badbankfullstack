@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 node:14.17.0-alpin
 
-COPY package.json
+COPY package.json package.json
 
 RUN npm install
 
