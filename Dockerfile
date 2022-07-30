@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:14.17.0
+FROM --platform=linux/amd64 node:14
 
 COPY package.json package.json
 
