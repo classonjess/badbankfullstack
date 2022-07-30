@@ -9,5 +9,4 @@ RUN npm install --production
 
 COPY . .
 
-CMD ["node","mongo_test.js"]
-
+CMD ["node","index.js"]
