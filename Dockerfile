@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:14.17.0-alpin
+FROM --platform=linux/amd64 node:14.17.0
 
 COPY package.json package.json
 
