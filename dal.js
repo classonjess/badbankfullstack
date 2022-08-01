@@ -1,11 +1,11 @@
 const e = require('express');
 
-const MongoClient = require('mongodb').MongoClient;
-
 const uri = process.env.MONGOD_URI;
+const MongoClient = require('mongodb').MongoClient;
+let db = null;
 
 // connect to mongo
-MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
+MongoClient.connect(uri, { useUnifiedTopology: true }, function (err, client) {
     console.log("Connected successfully to db server");
 
     // connect to myproject database

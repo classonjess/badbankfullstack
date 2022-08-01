@@ -1,9 +1,8 @@
-FROM node:latest
+FROM node:14-alpine
 
-WORKDIR /app
+COPY package.json package.json  
+RUN npm install
 
-COPY package.json package.json
-
-COPY . .
-
-CMD ["node","index.js"]
+# Add your source files
+COPY . .  
+CMD ["npm","start"]

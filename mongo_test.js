@@ -1,13 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
-const username = encodeURIComponent("jessicaclasson");
-const password = encodeURIComponent("CapeTown0007");
-const cluster = "badbank";
-const authSource = "mongodb+srv://jessicaclasson:CapeTown0007@badbank.ysxcscv.mongodb.net/myproject";
-const authMechanism = "Default";
-const url ='mongodb+srv://jessicaclasson:CapeTown0007@badbank.ysxcscv.mongodb.net/?retryWrites=true&w=majority';
- 
+
 // connect to mongo
-MongoClient.connect(url, {useUnifiedTopology: true}, function(err, client) {
+MongoClient.connect(uri, {useUnifiedTopology: true}, function(err, client) {
   console.log("Connected successfully to server");
 
     // database Name
