@@ -1,7 +1,6 @@
 const e = require('express');
 
 const MongoClient = require('mongodb').MongoClient;
-let db = null;
 
 const uri = process.env.MONGOD_URI;
 
