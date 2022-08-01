@@ -4,6 +4,8 @@ var cors    = require('cors');
 var dal     = require('./dal.js');
 const e     = require('express');
 
+const uri = process.env.MONGOD_URI;
+
 // used to serve static files from public directory 
 app.use(express.static('public'));
 app.use(cors());

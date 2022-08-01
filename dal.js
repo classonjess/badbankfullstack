@@ -1,7 +1,6 @@
 const e = require('express');
 
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb+srv://jessicaclasson:CapeTown0007@badbank.ysxcscv.mongodb.net/?retryWrites=true&w=majority';
 let db = null;
 
 // connect to mongo
