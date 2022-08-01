@@ -3,6 +3,8 @@ const e = require('express');
 const MongoClient = require('mongodb').MongoClient;
 let db = null;
 
+const uri = process.env.MONGOD_URI;
+
 // connect to mongo
 MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
     console.log("Connected successfully to db server");
