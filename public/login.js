@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAQ31MPlj8slq_5E5LVtwUK7BA3zQMgAiY",
+  apiKey: "AIza",
   authDomain: "badbank-e02d7.firebaseapp.com",
   databaseURL: "https://badbank-e02d7-default-rtdb.firebaseio.com",
   projectId: "badbank-e02d7",
   storageBucket: "badbank-e02d7.appspot.com",
-  messagingSenderId: "787228376615",
-  appId: "1:787228376615:web:c61389bea3e8dba253d802"
+  messagingSenderId: "7872\",
+  appId: "1:787228376615"
 };
 
 // Initialize Firebase
